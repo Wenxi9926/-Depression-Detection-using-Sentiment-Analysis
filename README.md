@@ -1,4 +1,4 @@
-# 🧠 Depression Detection Using Sentiment Analysis
+# 🧠 Depression Detection Using Sentiment Analysis 5/1/2025
 
 This project applies sentiment analysis and machine learning to detect depressive symptoms in social media text. Our goal is to identify at-risk individuals by analyzing patterns in their language, and support timely mental health interventions.
 
@@ -14,7 +14,7 @@ This project applies sentiment analysis and machine learning to detect depressiv
 - **Google Colab**
 - **Gradio** (for deployment)
 - **Kaggle** (for code sharing)
-- **Scikit-learn**, **XGBoost**, **NLTK**
+- **Machine Learning Model**: **XGBoost**, **Bernoulli Naive Bayes**, **Decision Tree**, **Logistic Regression**
 
 ## 🧪 Modeling Techniques
 
@@ -49,7 +49,7 @@ We used **Gradio** to build an interactive interface for users to input text and
 
 - All code is available on [Kaggle](https://www.kaggle.com/code/szegeelim/depression-detection-using-sentiment-analysis)
 - Managed dependencies using `requirements.txt`
-- Notebook-based development in Google Colab
+- Notebook-based development in Google Colab uploaded here as WQD7001_GA2.ipynb
 
 ## 🤝 Stakeholder Impact
 
@@ -68,7 +68,7 @@ We used **Gradio** to build an interactive interface for users to input text and
 
 ### 👥 Team
 
-This project was completed as part of the WQD7001 *Principles of Data Science* course by **Group 11**.
+This project was completed as part of the WQD7001 *Principles of Data Science* course by **Group 2** in 5th January 2025.
 
 ---
 
