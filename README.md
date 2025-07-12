@@ -36,14 +36,34 @@ Common words associated with depressive sentiment:
 
 These words guided our sentiment and feature engineering processes.
 
-## 🚀 Deployment
+## 🚀 Deployment Quick Start (Gradio on Google Colab)
 
-We used **Gradio** to build an interactive interface for users to input text and receive real-time depression predictions.
+You can launch the Gradio app **without re-training the model** by following these steps:
 
-🌐 **Live Demo**: [Click to launch Gradio App](https://ebba8a928c165679f6.gradio.live)
+### 🛠️ Step-by-Step Instructions
+1. Open the Jupyter notebook: `WQD7001_GA2.ipynb` in **Google Colab**
+2. Download and upload the following files into the Colab session:
+   - ✅ `xgb_depression_model.joblib` — pre-trained XGBoost model
+   - ✅ `tfidf_vectorizer.pkl` — TF-IDF vectorizer
+3. Skip the training cells and scroll to the **Gradio deployment section**
+4. Run the Gradio cell to launch the web interface
+5. Enter any text and receive a prediction: `Depressed` or `Not Depressed`
 
-- Input: Any social media-like text
-- Output: "Depressed" or "Not Depressed"
+## 🧪 Testing the Model with Sample Inputs
+
+The repository includes a test file: `Testing Text.txt` for quick experimentation.
+
+### 📄 About the File:
+- Contains both **depressed** and **non-depressed** example sentences
+- Each line = one input text for prediction
+
+### 🔍 How to Use It:
+1. Open the Gradio app in Colab
+2. Open `Testing Text.txt`
+3. Copy a line and paste it into the input box
+4. Click **Submit** and view the prediction
+
+This helps evaluate how the model performs on real-like social media text inputs.
 
 ## 🔁 Reproducibility
 
