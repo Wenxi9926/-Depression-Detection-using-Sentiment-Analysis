@@ -1,4 +1,3 @@
-# Depression-Detection-using-Sentiment-Analysis
 # 🧠 Depression Detection Using Sentiment Analysis
 
 This project applies sentiment analysis and machine learning to detect depressive symptoms in social media text. Our goal is to identify at-risk individuals by analyzing patterns in their language, and support timely mental health interventions.
