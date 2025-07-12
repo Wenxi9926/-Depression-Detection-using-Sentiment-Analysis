@@ -41,7 +41,7 @@ These words guided our sentiment and feature engineering processes.
 You can launch the Gradio app **without re-training the model** by following these steps:
 
 ### 🛠️ Step-by-Step Instructions
-1. Open the Jupyter notebook: `WQD7001_GA2.ipynb` in **Google Colab**
+1. Open the Jupyter notebook: `depression_detection.ipynb` in **Google Colab**
 2. Download and upload the following files into the Colab session:
    - ✅ `xgb_depression_model.joblib` — pre-trained XGBoost model
    - ✅ `tfidf_vectorizer.pkl` — TF-IDF vectorizer
